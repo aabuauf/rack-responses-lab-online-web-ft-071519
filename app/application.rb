@@ -7,7 +7,7 @@ class Application
  
   timeNow = Time
   resp.write "Time Now #{timeNow}"
-binding.pry
+
    if timeNow<12 
       resp.write "Good Morning!"
     else
