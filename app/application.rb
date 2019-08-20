@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
  
-  timeNow = Time.now.strftime("%H:%M")
+  timeNow = Time
   resp.write "Time Now #{timeNow}"
 
    if timeNow<12 
