@@ -5,7 +5,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
  
-  timeNow = Time
+  timeNow = Time.now
   resp.write "Time Now #{timeNow}"
 binding.pry
    if timeNow<12 
