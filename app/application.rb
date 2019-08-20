@@ -7,7 +7,7 @@ class Application
  
   timeNow = Time.now.strftime('%H:%M')
   resp.write "Time Now #{timeNow}"
-binding.pry
+
    if timeNow<"12:00" 
       resp.write "Good Morning!"
     else
