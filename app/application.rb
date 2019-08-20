@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
  
   timeNow = Time.now.strftime("%H:%M")
-  resp.write timeNow
+  resp.write "Time Now #{timeNow}"
 #    if num_1==num_2 && num_2==num_3
 #      resp.write "You Win"
 #    else
