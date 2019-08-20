@@ -7,9 +7,9 @@ class Application
   resp.write "Time Now #{timeNow}"
 
    if timeNow<12 
-      resp.write "Good Morning"
+      resp.write "Good Morning!"
     else
-      resp.write "You Lose"
+      resp.write "Good Afternoon!"
     end
  
     resp.finish
